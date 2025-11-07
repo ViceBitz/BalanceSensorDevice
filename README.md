@@ -3,8 +3,6 @@
 The system quantifies and maps balance over time in patients using a custom-built pressure sensor device (Arduino UNO + Python).  
 ✏️ Research Paper Draft: https://www.skylimit.science/balance-sensor
 
----
-
 ### Inspiration
 In the elderly population, approximately two-thirds of injury-related deaths are related to accidental falls. We aim to provide a measurable, data-driven approach to balance assessment, helping at-risk patients and caretakers track stability. to help elder.  
 
@@ -17,15 +15,11 @@ In the elderly population, approximately two-thirds of injury-related deaths are
 - **Device Calibration**: Designed calibration stages to normalize readings for sensor inconsistencies and varying user balance profiles.  
 - **Statistical Analysis & Visualization**: Formulated balance scores with custom statistical formula and visualized trends using JMP and Python.  
 
----
-
 ### 🎯 Challenges
 
 - **User Variability**: Different stances and weights required personal calibration.  
 - **Testing Conditions**: Validated the sensor for eyes-open and eyes-closed scenarios.  
 - **Sensor Consistency**: Ensured even pressure distribution using O-rings and a playmat sponge. 
-
----
 
 ### 🧪 Testing & Results
 
