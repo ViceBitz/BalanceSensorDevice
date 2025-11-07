@@ -3,12 +3,16 @@
 ## Overview
 
 The system quantifies and maps balance over time in patients using a custom-built pressure sensor device (Arduino UNO + Python).  
-✏️ Research Paper Draft: https://www.skylimit.science/balance-sensor
+**Research Paper Draft:** https://www.skylimit.science/balance-sensor
 
-In the elderly population, approximately two-thirds of injury-related deaths are related to accidental falls. We aim to provide a measurable, data-driven approach to balance assessment, helping at-risk patients and caretakers track stability. to help elder.  
+In the elderly population, approximately two-thirds of injury-related deaths are related to accidental falls. We aim to provide a measurable, data-driven approach to balance assessment, helping at-risk patients and caretakers track stability. to help elder.
+
+This sensor system consists of two main parts:
+1. Balance Device: collecting balance data by measuring pressure shifts on base of feet with sensor-rigged platforms
+2. Signal Processing & Data Analysis: convert voltage signals into force readings, normalize time-series data across different sensitivities, calculate and visualize aggregate balance score  
 
 ---
-## Details
+## System Details
 
 #### 📜 Methods
 
@@ -30,8 +34,7 @@ In the elderly population, approximately two-thirds of injury-related deaths are
 - Clear trends in instability detected.  
 
 ---
-
-## Tech
+## Tech Stack
 
 On the hardware side, the circuits feed into an Arduino UNO microcontroller board. Force sensitive resistors read pressure data from the base of both feet, placed directly under the device's platforms with O-ring padding to protect the structure.
 
